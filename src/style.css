@@ -59,6 +59,7 @@
   align-items: center;
 }
 .app .container .navbar .container .logo img {
+  border-radius: 50%;
   width: 120px;
 }
 .app .container .navbar .container .links {
@@ -98,6 +99,11 @@
 }
 .app .container footer img {
   height: 50px;
+  border-radius: 50%;
+}
+.app .container footer span {
+  color: black;
+  font-weight: 600;
 }
 .app .container .home .posts {
   margin-top: 50px;
@@ -109,7 +115,7 @@
   display: flex;
   gap: 100px;
 }
-.app .container .home .posts .post:nth-child(2n+1) {
+.app .container .home .posts .post:nth-child(2n + 1) {
   flex-direction: row-reverse;
 }
 .app .container .home .posts .post .img {
@@ -257,7 +263,7 @@
 }
 .app .container .add .content .editorContainer {
   height: 300px;
-  overflow-Y: scroll;
+  overflow-y: scroll;
   border: 1px solid lightgray;
 }
 .app .container .add .content .editorContainer .editor {
